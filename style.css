@@ -1,0 +1,95 @@
+body{
+    box-sizing: border-box;
+    background-color: #fefbe9;
+}
+
+.containner{
+    /* border:2px solid red; */  
+    margin: auto;
+    width: 90%;
+    margin-top: 12%;
+    /* background-color: #4CAA2B; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 10rem;
+    padding: 2px;
+    width: 40%;
+    margin: 12px 18px;
+    border-radius: 20px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quotes{
+    border: 3px solid #f77777;
+    background-color: #F8C8C6;
+}
+#jokes{
+    border: 3px solid #388087;
+    background-color: #BADFE7;
+}
+
+
+.name{
+    position: relative;
+    font-size: 64px;
+    font: bolder;
+
+    color: rgb(53, 53, 53);
+
+}
+
+.box:hover .name{
+    display: none;
+}
+.box:hover .data{
+    display: block;
+}
+
+
+.data{
+    position: relative;
+    width: 75%;
+    font-size: 20px;
+    font: bolder;
+
+    line-height: 1.6rem;
+    word-spacing: 2px;
+    
+    color: rgb(70, 68, 68);
+    display: none;
+}
+
+#change{
+    background-color: rgb(218, 216, 216);
+    width:8rem;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-top: 2rem;
+    padding: 4px 6px;
+    position: absolute;
+    left: 46%;
+}
+
+#change:hover{
+    cursor: pointer;
+}
+
+footer{
+    height: 22px;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    margin: auto;
+    color: whitesmoke;
+    text-align: center;
+}
